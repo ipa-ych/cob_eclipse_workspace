@@ -1,0 +1,93 @@
+@startuml
+
+/'SUBSYSTEMS'/
+
+  component gazebo {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_laserscan {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout cob_laserscan.base_laser_left_scan_raw as "base_laser_left/scan_raw" #blue
+    portout cob_laserscan.base_laser_right_scan_raw as "base_laser_right/scan_raw" #blue
+    portout cob_laserscan.base_laser_front_scan_raw as "base_laser_front/scan_raw" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_camera_controller {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout cob_camera_controller.torso_left_cam_info as "torso_left_cam_info" #blue
+    portout cob_camera_controller.torso_left_image_raw as "torso_left_image_raw" #blue
+    portout cob_camera_controller.torso_left_image_raw_compressed as "torso_left_image_raw_compressed" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_tricycle_controller {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin cob_tricycle_controller.tricycle_controller_cmd_vel_sub as "tricycle_controller/cmd_vel_sub" #blue
+    portout cob_tricycle_controller.tf as "tf" #blue
+    portout cob_tricycle_controller.odom_diff as "odom_diff" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_torso_controller {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component robot_state_publisher {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin robot_state_publisher.joint_states_sub as "joint_states_sub" #blue
+    portout robot_state_publisher.tf_rsp as "tf_rsp" #blue
+    portout robot_state_publisher.tf_static_rsp as "tf_static_rsp" #blue
+    portout robot_state_publisher.robot_description as "robot_description" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_joint_state {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout cob_joint_state.joint_states as "joint_states" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_light_controller {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin cob_light_controller.set_Light_color as "set_Light_color" #orange
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_sound_controller {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin cob_sound_controller.sound_play as "sound_play" #orange
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_mimic_controller {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin cob_mimic_controller.set_Mimic as "set_Mimic" #orange
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+
+/'SUBSYSTEMS'/
+
+  component gazebo {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component robot_state_publisher {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin robot_state_publisher.joint_states as "joint_states" #blue
+    portout robot_state_publisher.tf as "tf" #blue
+    portout robot_state_publisher.tf_static as "tf_static" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cob_joint_state {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout cob_joint_state.joint_states as "joint_states" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+
+@enduml

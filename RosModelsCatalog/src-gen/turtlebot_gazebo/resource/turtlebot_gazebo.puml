@@ -1,0 +1,67 @@
+@startuml
+
+/'SUBSYSTEMS'/
+
+  component gazebo {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component robot_state_publisher {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin robot_state_publisher.joint_states as "joint_states" #blue
+    portout robot_state_publisher.tf as "tf" #blue
+    portout robot_state_publisher.tf_static as "tf_static" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component turtlebot3_joint_state {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout turtlebot3_joint_state.joint_states as "joint_states" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component turtlebot3_diff_drive {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin turtlebot3_diff_drive.cmd_vel_diff as "cmd_vel_diff" #blue
+    portout turtlebot3_diff_drive.tf as "tf" #blue
+    portout turtlebot3_diff_drive.odom_diff as "odom_diff" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component turtlebot3_imu {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout turtlebot3_imu.imu as "imu" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component camera_driver {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout camera_driver.camera_info as "camera_info" #blue
+    portout camera_driver.image_raw as "image_raw" #blue
+    portin camera_driver.set_camera_info as "set_camera_info" #orange
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component turtlebot3_laserscan {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout turtlebot3_laserscan.scan_turtlebot as "scan_turtlebot" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+
+@enduml

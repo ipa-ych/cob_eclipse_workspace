@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;teleop_xbox/rosnodes/teleop_xbox.ros2&apos; to &apos;joy.ros2&apos;" description="Rename resource &apos;teleop_xbox.ros2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rosnodes/teleop_xbox.ros2" name="joy.ros2" stamp="1714491666406" updateReferences="true"/>
+</session>

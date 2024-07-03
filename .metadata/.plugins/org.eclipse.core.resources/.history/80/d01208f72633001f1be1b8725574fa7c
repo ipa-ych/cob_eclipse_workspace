@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_qN-HUDMmEe-E4dNIKHbFWA" selectedViews="_qspAUDMmEe-E4dNIKHbFWA" version="15.2.0.202303281325">
+  <semanticResources>cob_combi_robot_uml.rossystem</semanticResources>
+  <semanticResources>rosnodes/launch_visual.rossystem</semanticResources>
+  <semanticResources>rosnodes/robot_state_publisher.ros2</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/ros_core.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/builtin_interfaces.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/tf2_msgs.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/common_msgs.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/sensor_msgs.ros</semanticResources>
+  <semanticResources>rosnodes/rviz.ros2</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/nav_msgs.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/map_msgs.ros</semanticResources>
+  <semanticResources>rosnodes/cob_nav2.rossystem</semanticResources>
+  <semanticResources>rosnodes/navi/amcl.ros2</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/lifecycle_msgs.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/nav2_msgs.ros</semanticResources>
+  <semanticResources>rosnodes/navi/behavior_server.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/bt_navigator.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/controller_server.ros2</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/dwb_msgs.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/nav_2d_msgs.ros</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/visualization_msgs.ros</semanticResources>
+  <semanticResources>rosnodes/navi/global_costmap.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/lifecycle_manager_localization.ros2</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/diagnostic_msgs.ros</semanticResources>
+  <semanticResources>rosnodes/navi/lifecycle_manager_navigation.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/local_costmap.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/map_server.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/planner_server.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/smoother_server.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/velocity_smoother.ros2</semanticResources>
+  <semanticResources>rosnodes/navi/waypoint_follower.ros2</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/base_driver.ros1</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/controller_manager_msgs.ros</semanticResources>
+  <semanticResources>ros1_msgs/dynamic_reconfigure.ros</semanticResources>
+  <semanticResources>ros1_msgs/cob_base_controller_utils.ros</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/scan_unifier.ros1</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/joint_state_publisher.ros1</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/robot_state_publisher.ros1</semanticResources>
+  <semanticResources>rosnodes/joy.ros2</semanticResources>
+  <semanticResources>rosnodes/twist_mux.ros2</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/rosgraph_msgs.ros</semanticResources>
+  <semanticResources>rosnodes/teleop_twist_joy.ros2</semanticResources>
+  <semanticResources>rosnodes/slam_toolbox.ros2</semanticResources>
+  <semanticResources>slam_toolbox_msgs/slam_toolbox_msgs.ros</semanticResources>
+  <semanticResources>rosnodes/bt_lifecycle.ros2</semanticResources>
+  <semanticResources>yolov8_msgs/yolov8_msgs.ros</semanticResources>
+  <semanticResources>cob_msgs/cob_srvs.ros</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/cob_light.ros1</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/cob_mimic.ros1</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/cob_sound.ros1</semanticResources>
+  <semanticResources>rosnodes/image_transport.ros2</semanticResources>
+  <semanticResources>rosnodes/cob_robot_hw/cob_camera.ros1</semanticResources>
+  <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/theora_image_transport.ros</semanticResources>
+  <semanticResources>rosnodes/yolov8_node.ros2</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" uid="_qspAUDMmEe-E4dNIKHbFWA">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

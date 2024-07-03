@@ -1,0 +1,6 @@
+turtlebot_with_teleop:
+  subSystems:
+    turtlebot_gazebo
+  nodes:
+    teleop_key:
+      from: "teleop_twist_keyboard.teleop_twist_keyboard"

@@ -1,0 +1,10 @@
+cob_sound:
+  actions:
+    Play
+      goal
+      result
+      feedback
+    Say
+      goal
+      result
+      feedback

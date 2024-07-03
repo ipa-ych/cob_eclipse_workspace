@@ -1,0 +1,27 @@
+@startuml
+
+/'SUBSYSTEMS'/
+
+  component robot_state_publisher {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin robot_state_publisher.joint_states as "joint_states" #blue
+    portout robot_state_publisher.tf_pub_ros2 as "tf_pub_ros2" #blue
+    portout robot_state_publisher.tf_static_pub_ros2 as "tf_static_pub_ros2" #blue
+    portout robot_state_publisher.robot_description as "robot_description" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component rviz2 {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin rviz2.cloud_in_sub_rviz as "cloud_in_sub_rviz" #blue
+    portin rviz2.map_sub as "map_sub" #blue
+    portin rviz2.robot_description_sub as "robot_description_sub" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+
+@enduml

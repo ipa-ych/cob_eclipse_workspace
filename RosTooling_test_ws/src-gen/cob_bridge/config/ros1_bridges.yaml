@@ -1,0 +1,3 @@
+bridge_cob_bridge_topics/topics:
+- topic: /joint_states
+  type: sensor_msgs/msg/JointState

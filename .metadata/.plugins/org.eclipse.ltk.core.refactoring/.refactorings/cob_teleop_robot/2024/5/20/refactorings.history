@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;cob_teleop_robot/ROS1_MSGS&apos; to &apos;ros1_msgs&apos;" description="Rename resource &apos;ROS1_MSGS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ROS1_MSGS" name="ros1_msgs" stamp="1715955066671" updateReferences="true"/>
+</session>

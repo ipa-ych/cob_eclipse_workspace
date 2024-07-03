@@ -1,0 +1,7 @@
+bridge_cob_slam_robot_topics/topics:
+- topic: /base/twist_controller/command
+  type: geometry_msgs/msg/Twist
+- topic: /scan_unified
+  type: sensor_msgs/msg/LaserScan
+- topic: /joint_states
+  type: sensor_msgs/msg/JointState

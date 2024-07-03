@@ -1,0 +1,3 @@
+bridge_cob_teleop_bridge_topics/topics:
+- topic: test/cmd_vel
+  type: geometry_msgs/msg/Twist

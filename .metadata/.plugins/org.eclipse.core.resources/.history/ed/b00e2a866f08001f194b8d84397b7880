@@ -1,0 +1,4 @@
+minimum_teleop:
+	subSystems:
+		my_subsystem
+	

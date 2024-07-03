@@ -1,0 +1,14 @@
+cob_msgs:
+  msgs:
+    AccessPoint
+      message
+    DashboardState
+      message
+    EmergencyStopState
+      message
+    Network
+      message
+    PowerState
+      message
+    SiteSurvey
+      message

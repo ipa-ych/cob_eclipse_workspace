@@ -1,0 +1,10 @@
+cob_mimic:
+  srvs:
+    SetMimic
+      request
+      response
+  actions:
+    SetMimicAct
+      goal
+      result
+      feedback

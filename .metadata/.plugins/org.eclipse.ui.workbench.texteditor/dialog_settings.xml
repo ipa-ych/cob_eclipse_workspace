@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="setMimic"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="behavior/setMimic"/>
+			<item value="/behavior/setLight"/>
+			<item value="tf_sub"/>
+			<item value="&apos;/tf_ros1_pub&apos;"/>
+			<item value="          qos:"/>
+			<item value="torso_cam3d_left"/>
+			<item value="&#x09;  &#x09;&#x09;  - Yolov8_Inference: sub-&gt; &quot;behavior_tree_example::Yolov8_Inference&quot;"/>
+			<item value="          value: []"/>
+			<item value="      subscribers:"/>
+			<item value="&#x09;&#x09;&#x09;  - &quot;use_response_expansion&quot;: &quot;async_slam_toolbox_node::use_response_expansion&quot;"/>
+			<item value="#  nodes:"/>
+			<item value="odom"/>
+			<item value="Pose2D"/>
+			<item value="/teleop_twist_joy_node."/>
+		</list>
+		<list key="replacehistory">
+			<item value="setMimic"/>
+			<item value="setLight"/>
+			<item value="cam"/>
+			<item value="teleop_node::"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="20"/>
+		<item key="DIALOG_Y_ORIGIN" value="20"/>
+		<item key="DIALOG_WIDTH" value="357"/>
+		<item key="DIALOG_HEIGHT" value="408"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

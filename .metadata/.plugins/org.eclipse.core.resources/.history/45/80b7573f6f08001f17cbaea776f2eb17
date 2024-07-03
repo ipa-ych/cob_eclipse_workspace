@@ -1,0 +1,3 @@
+minimum_teleop:
+	subSystems:
+		gazeminimum_teleop

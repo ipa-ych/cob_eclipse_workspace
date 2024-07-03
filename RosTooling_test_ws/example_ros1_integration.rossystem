@@ -1,0 +1,12 @@
+cob_bridge:
+  nodes:
+    ros1_cob:
+      from: "cob_ros1./joint_state_publisher"
+      interfaces:
+        - joint_state_pub : pub-> "/joint_state_publisher::/joint_states"
+    teleop:
+      from: "robot_state_publisher.robot_state_publisher"
+      interfaces:
+        - join_state_sub: sub-> "robot_state_publisher::joint_states"
+  connections:
+    - [joint_state_pub,join_state_sub]

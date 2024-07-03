@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;cob_combi_sim/cob_combi_sim_UML.rossystem&apos; to &apos;cob_combi_sim_uml.rossystem&apos;" description="Rename resource &apos;cob_combi_sim_UML.rossystem&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="cob_combi_sim_UML.rossystem" name="cob_combi_sim_uml.rossystem" stamp="1719256708467" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+minimum_teleop:
+	nodes: 
+		joy_node:
+      		from: "joy.joy_node"

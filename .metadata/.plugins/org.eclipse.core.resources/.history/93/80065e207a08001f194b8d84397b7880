@@ -1,0 +1,69 @@
+minimum_teleop:
+  nodes:
+    joy_node:
+      from: "joy.joy_node"
+      interfaces:
+      	- "joy": pub-> "joy_node::joy"
+      	- "joy/set_feedback": sub-> "joy_node::joy/set_feedback"
+      parameters:
+        - autorepeat_rate: "joy_node::autorepeat_rate"
+          value: 20.0
+        - coalesce_interval_ms: "joy_node::coalesce_interval_ms"
+          value: 1
+        - deadzone: "joy_node::deadzone"
+          value: 0.3
+        - device_id: "joy_node::device_id"
+          value: 0
+        - device_name: "joy_node::device_name"
+          value: ""
+        - sticky_buttons: "joy_node::sticky_buttons"
+          value: false
+        - use_sim_time: "joy_node::use_sim_time"
+          value: false
+    teleop_twist_joy_node:
+      from: "teleop_twist_joy.teleop_node"
+      parameters:
+        - axis_angular_pitch: "teleop_node::axis_angular.pitch"
+          value: -1
+        - axis_angular_roll: "teleop_node::axis_angular.roll"
+          value: -1
+        - axis_angular_yaw: "teleop_node::axis_angular.yaw"
+          value: 0
+        - axis_linear_x: "teleop_node::axis_linear.x"
+          value: 1
+        - axis_linear_y: "teleop_node::axis_linear.y"
+          value: -1
+        - axis_linear_z: "teleop_node::axis_linear.z"
+          value: -1
+        - enable_button: "teleop_node::enable_button"
+          value: 2
+        - enable_turbo_button: "teleop_node::enable_turbo_button"
+          value: 5
+        - require_enable_button: "teleop_node::require_enable_button"
+          value: true
+        - scale_angular_pitch: "teleop_node::scale_angular.pitch"
+          value: 0.0
+        - scale_angular_roll: "teleop_node::scale_angular.roll"
+          value: 0.0
+        - scale_angular_yaw: "teleop_node::scale_angular.yaw"
+          value: 0.4
+        - scale_angular_turbo_pitch: "teleop_node::scale_angular_turbo.pitch"
+          value: 0.0
+        - scale_angular_turbo_roll: "teleop_node::scale_angular_turbo.roll"
+          value: 0.0
+        - scale_angular_turbo_yaw: "teleop_node::scale_angular_turbo.yaw"
+          value: 1.0
+        - scale_linear_x: "teleop_node::scale_linear.x"
+          value: 0.7
+        - scale_linear_y: "teleop_node::scale_linear.y"
+          value: 0.0
+        - scale_linear_z: "teleop_node::scale_linear.z"
+          value: 0.0
+        - scale_linear_turbo_x: "teleop_node::scale_linear_turbo.x"
+          value: 1.5
+        - scale_linear_turbo_y: "teleop_node::scale_linear_turbo.y"
+          value: 0.0
+        - scale_linear_turbo_z: "teleop_node::scale_linear_turbo.z"
+          value: 0.0
+        - use_sim_time: "teleop_node::use_sim_time"
+          value: false

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;turtlebot_teleop.aird&apos; to &apos;RosModelsCatalog&apos;" description="Move &apos;turtlebot_teleop.aird&apos; to &apos;RosModelsCatalog&apos;" destination="/RosModelsCatalog" element1="robots/turtlebot3/simulation/turtlebot_teleop.aird" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1714401544871" updateReferences="true"/>
+</session>

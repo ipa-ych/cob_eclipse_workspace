@@ -1,0 +1,11 @@
+node2:
+  ros__parameters:
+    array_example: [hello, hallo]
+    bool_example: true
+    double_example: 1.2
+    integer_example: 2
+    string_param: hallo
+    struct_param: 
+      first: 2
+      second: true
+

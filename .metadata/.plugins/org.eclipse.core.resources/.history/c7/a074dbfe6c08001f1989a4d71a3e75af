@@ -1,0 +1,7 @@
+minimum_teleop: 
+	nodes:
+		joy_node
+			from: "joy.joy_node"
+	        interfaces:
+		      	- "joy": pub-> "joy_node::joy"
+		      	- "joy/set_feedback": sub-> "joy_node::joy/set_feedback"

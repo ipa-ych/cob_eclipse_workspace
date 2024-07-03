@@ -1,0 +1,47 @@
+@startuml
+
+/'SUBSYSTEMS'/
+component my_subsystem {
+  component node1a {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout node1a.other_publisher as "other_publisher" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component node2a {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin node2a.other_subscriber as "other_subscriber" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+ }
+
+  component node1 {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout node1.my_publisher as "my_publisher" #blue
+    portin node1.my_server as "my_server" #orange
+    portin node1.my_act_server as "my_act_server" #green
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component node2 {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin node2.my_subscriber as "my_subscriber" #blue
+    portout node2.my_client as "my_client" #orange
+    portout node2.my_act_client as "my_act_client" #green
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  node1.my_publisher --> node2.my_subscriber
+  node1.my_act_server --> node2.my_act_client
+  node1.my_server --> node2.my_client
+
+@enduml

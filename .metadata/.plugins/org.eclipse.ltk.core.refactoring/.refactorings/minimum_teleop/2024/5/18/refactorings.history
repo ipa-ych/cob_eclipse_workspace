@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;minimum_teleop/rosnodes/minimum_teleop.ros2&apos; to &apos;joy.ros2&apos;" description="Rename resource &apos;minimum_teleop.ros2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rosnodes/minimum_teleop.ros2" name="joy.ros2" stamp="1714575357938" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;minimum_teleop/rosnodes/joy.ros2&apos; to &apos;joy_node.ros2&apos;" description="Rename resource &apos;joy.ros2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rosnodes/joy.ros2" name="joy_node.ros2" stamp="1714575365851" updateReferences="true"/>
+</session>

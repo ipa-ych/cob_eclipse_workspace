@@ -1,0 +1,14 @@
+twist_mux:
+  ros__parameters:
+    diagnostic_updater_period: 1.0
+    topics_joystick_priority: 100
+    topics_joystick_timeout: 0.5
+    topics_joystick_topic: cmd_vel_joy
+    topics_navigation_priority: 10
+    topics_navigation_timeout: 0.5
+    topics_navigation_topic: cmd_vel
+    topics_tracker_priority: 20
+    topics_tracker_timeout: 0.5
+    topics_tracker_topic: cmd_vel_tracker
+    use_sim_time: true
+

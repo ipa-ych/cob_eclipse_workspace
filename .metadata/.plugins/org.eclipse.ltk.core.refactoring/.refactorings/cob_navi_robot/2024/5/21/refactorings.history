@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;cob_navi_robot/rosnodes/cob_slam_gazebo.rossystem&apos; to &apos;launch_visual.rossystem&apos;" description="Rename resource &apos;cob_slam_gazebo.rossystem&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="rosnodes/cob_slam_gazebo.rossystem" name="launch_visual.rossystem" stamp="1716557848258" updateReferences="true"/>
+</session>

@@ -1,0 +1,11 @@
+nodelet:
+  srvs:
+    NodeletList
+      request
+      response
+    NodeletLoad
+      request
+      response
+    NodeletUnload
+      request
+      response

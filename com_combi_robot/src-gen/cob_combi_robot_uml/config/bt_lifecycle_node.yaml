@@ -1,0 +1,7 @@
+bt_lifecycle_node:
+  ros__parameters:
+    rate_hz: 0.5
+    num_republish: 10
+    ping_starter: true
+    behaviortree_file: /home/nhg-yc/bt_ws/src/ros2_behavior_tree_example/behavior_trees/cob_sim/combi_test_with_Navi_sim.xml
+
