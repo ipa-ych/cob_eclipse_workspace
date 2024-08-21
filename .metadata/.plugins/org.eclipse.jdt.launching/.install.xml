@@ -2,6 +2,6 @@
 <dirs>
     <entry loc="/home/nhg-yc/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.1.v20240426-1149" stamp="1714391889995"/>
     <entry loc="/home/nhg-yc/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.1.v20240426-1149/jre" stamp="1714391889995"/>
-    <entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1717664714749"/>
+    <entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1722504082534"/>
     <entry loc="/usr/lib/jvm/java-19-openjdk-amd64" stamp="1712520622865"/>
 </dirs>

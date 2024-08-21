@@ -1,0 +1,34 @@
+@startuml
+
+/'SUBSYSTEMS'/
+
+  component turtlebot_node {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin turtlebot_node.cmd_vel as "cmd_vel" #blue
+    portout turtlebot_node.tf as "tf" #blue
+    portout turtlebot_node.odom as "odom" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component turtlebot3_laserscan {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout turtlebot3_laserscan.scan as "scan" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component robot_state_publisher {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin robot_state_publisher.joint_states as "joint_states" #blue
+    portout robot_state_publisher.tf as "tf" #blue
+    portout robot_state_publisher.tf_static as "tf_static" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+
+@enduml

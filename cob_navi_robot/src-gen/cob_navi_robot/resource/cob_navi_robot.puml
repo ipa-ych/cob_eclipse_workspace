@@ -119,6 +119,8 @@ component cob_nav2 {
   }
 
  }
+component cob4_bringup {
+ }
 
   component joy_node {
 
@@ -159,12 +161,11 @@ component cob_nav2 {
 
   joy_node.joy_pub --> teleop_twist_joy_node.joy
   teleop_twist_joy_node.cmd_vel --> twist_mux.cmd_vel_sub
-  twist_mux._base_twist_controller_command --> base_driver_ros1._base_twist_controller_command_sub
-  scan_unifier_ros1.scan_unified --> slam_toolbox.scan_sub
-  joint_state_publisher_ros1.joint_states_pub --> robot_state_publisher.joint_states
-  robot_state_publisher_ros1._tf_ros1_pub --> bt_navigator.tf_sub
-  robot_state_publisher_ros1._tf_static_ros1_pub --> bt_navigator.tf_static_sub
-  slam_toolbox.map --> slam_toolbox.map_sub_slamtb
+  twist_mux._base_twist_controller_command --> base_driver_ros1._base_twist_controller_command_sub_ros1
+  scan_unifier_ros1.scan_unified_ros1 --> slam_toolbox.scan_sub
+  joint_state_publisher_ros1.joint_states_ros1 --> robot_state_publisher.joint_states
+  robot_state_publisher_ros1._tf_ros1 --> bt_navigator.tf_sub
+  robot_state_publisher_ros1._tf_static_ros1 --> bt_navigator.tf_static_sub
   slam_toolbox.map --> rviz2.map_sub
 
 @enduml

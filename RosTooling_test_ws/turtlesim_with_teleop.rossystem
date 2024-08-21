@@ -1,0 +1,10 @@
+turtlebot_with_teleop:
+  subSystems:
+    turtlebot_gazebo
+  nodes:
+    teleop_key:
+      from: "teleop_twist_keyboard.teleop_twist_keyboard"
+      interfaces: 
+        - cmd_vel_pub: pub-> "teleop_keyboard::cmd_vel"
+  connections:
+    - [ cmd_vel_pub , cmd_vel_diff ]

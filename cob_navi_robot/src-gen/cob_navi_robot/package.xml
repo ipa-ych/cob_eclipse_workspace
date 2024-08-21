@@ -20,6 +20,7 @@
     <exec_depend>slam_toolbox</exec_depend>
     <exec_depend>cob_slam</exec_depend>
     <exec_depend>cob_slam</exec_depend>
+    <exec_depend>cob4_bringup</exec_depend>
   <exec_depend>ros1_bridge</exec_depend>
   <!--test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

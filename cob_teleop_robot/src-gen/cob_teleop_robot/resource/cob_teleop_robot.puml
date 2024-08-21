@@ -1,6 +1,8 @@
 @startuml
 
 /'SUBSYSTEMS'/
+component cob4_bringup {
+ }
 
   component joy_node {
 
@@ -28,7 +30,7 @@
 /' PORTS FROM THE ORIGINAL NODE '/
   }
 
-  twist_mux._base_twist_controller_command --> base_driver_ros1._base_twist_controller_command_sub
+  twist_mux._base_twist_controller_command --> base_driver_ros1._base_twist_controller_command_sub_ros1
   joy_node.joy_pub --> teleop_twist_joy_node.joy_sub
   teleop_twist_joy_node.cmd_vel_pub --> twist_mux.cmd_vel_sub
 

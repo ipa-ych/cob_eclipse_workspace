@@ -1,4 +1,4 @@
-#Wed Jun 12 15:18:13 CEST 2024
+#Fri Jul 26 13:37:12 CEST 2024
 print.margin.bottom=0.5
 print.margin.left=0.5
 print.margin.right=0.5
@@ -15,5 +15,5 @@ rulergrid.gridspacing=0.125
 rulergrid.rulerunit=0
 rulergrid.snaptogeometry=true
 rulergrid.snaptogrid=true
-viewport.x=225
+viewport.x=108
 zoom=0.75

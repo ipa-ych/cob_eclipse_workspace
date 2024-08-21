@@ -1,0 +1,16 @@
+@startuml
+
+/'SUBSYSTEMS'/
+
+  component arm_controller {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin arm_controller.arm_controller_joint_trajectory as "arm_controller/joint_trajectory" #blue
+    portin arm_controller.arm_controller_follow_joint_trajectory as "arm_controller/follow_joint_trajectory" #green
+    portout arm_controller.arm_controller_state as "arm_controller/state" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+
+@enduml

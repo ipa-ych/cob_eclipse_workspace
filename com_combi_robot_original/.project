@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>com_combi_robot</name>
+	<name>com_combi_robot_original</name>
 	<comment></comment>
 	<projects>
 		<project>de.fraunhofer.ipa.ros.communication.objects</project>

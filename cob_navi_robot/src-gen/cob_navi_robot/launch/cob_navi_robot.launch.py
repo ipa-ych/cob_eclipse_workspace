@@ -84,8 +84,8 @@ def generate_launch_description():
     output='screen',
     name="slam_toolbox",
     remappings=[
-      ("scan", "scan_unified"),
-      ("map", "map"),
+      ("scan", "scan_unified_ros1"),
+      ("map", "map_sub_slamtb"),
       ("map", "map"),
       ("tf", "tf")]
     ,
@@ -99,6 +99,9 @@ def generate_launch_description():
   include_cob_nav2= IncludeLaunchDescription(
     PythonLaunchDescriptionSource([get_package_share_directory('cob_slam') + '/launch/nav2_only.launch.py'])
   )
+  include_cob4_bringup= IncludeLaunchDescription(
+    PythonLaunchDescriptionSource([ get_package_share_directory('cob4_bringup') + '/launch/cob4_bringup.launch.py'])
+  )
 
   # *** Add actions ***
   ld.add_action(joy_node)
@@ -107,5 +110,6 @@ def generate_launch_description():
   ld.add_action(slam_toolbox)
   ld.add_action(include_launch_visual)
   ld.add_action(include_cob_nav2)
+  ld.add_action(include_cob4_bringup)
 
   return ld

@@ -2,6 +2,6 @@
 <libraryInfos>
     <libraryInfo home="/home/nhg-yc/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.1.v20240426-1149" version="22.0.1"/>
     <libraryInfo home="/home/nhg-yc/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.1.v20240426-1149/jre" version="22.0.1"/>
-    <libraryInfo home="/usr/lib/jvm/java-11-openjdk-amd64" version="11.0.23"/>
+    <libraryInfo home="/usr/lib/jvm/java-11-openjdk-amd64" version="11.0.24"/>
     <libraryInfo home="/usr/lib/jvm/java-19-openjdk-amd64" version="19.0.2"/>
 </libraryInfos>

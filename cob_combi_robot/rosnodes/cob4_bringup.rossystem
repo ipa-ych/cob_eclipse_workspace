@@ -1,0 +1,41 @@
+cob4_bringup:
+  nodes:
+    base_driver_ros1:
+      from: "base_driver.base_driver"
+      interfaces:
+        - '/base/twist_controller/command_sub': sub-> "base_driver::/base/twist_controller/command"
+    scan_unifier_ros1:
+   	  from: "scan_unifier.scan_unifier"
+   	  interfaces:
+   	    - 'scan_unified': pub-> "scan_unifier::/scan_unified"
+    joint_state_publisher_ros1:
+      from: "joint_state_publisher.joint_state_publisher"
+      interfaces:
+       - 'joint_states_pub': pub->"joint_state_publisher::/joint_states"
+    robot_state_publisher_ros1:
+      from: "robot_state_publisher.robot_state_publisher_ros1"
+      interfaces:
+       - '/tf_ros1_pub': pub->"robot_state_publisher::tf"
+       - '/tf_static_ros1_pub': pub->"robot_state_publisher::tf_static"
+    cob_light_ros1:
+	  		from: "cob_light./light_controller"
+	  		interfaces:
+	  		  - "setLightGreen_ss": ss-> "light_controller::/behavior/setLightCyan"
+	  		  - "setLightRed_ss": ss-> "light_controller::/behavior/setLightRed"
+	  		  - "setLightCyan_ss": ss-> "light_controller::/behavior/setLightCyan"
+	  		  - "setLightCyanBreath_ss": ss-> "light_controller::/behavior/setLightCyanBreath"
+	  		  - "setLightCyanSweep_ss": ss-> "light_controller::/behavior/setLightCyanSweep"
+    cob_mimic_ros1:
+	  		from: "cob_mimic./mimic_controller"
+	  		interfaces:
+	  		  - "setMimicAsking_ss": ss-> "mimic_controller::/behavior/setMimicAsking"
+	  		  - "setMimicBlinking_ss": ss-> "mimic_controller::/behavior/setMimicBlinking"
+	  		  - "setMimicBusy_ss": ss-> "mimic_controller::/behavior/setMimicBusy"
+    cob_sound_ros1:
+	  		from: "cob_sound./sound_controller"
+	  		interfaces:
+	  		  - "/sound/play_ss": ss-> "sound_controller::sound_play"
+    cob_camera_ros1:
+	  		from: "cob_camera./cam_ns/cam_frame_controller"
+	  		interfaces:
+	  		  - "/image_raw/compressed": pub-> "camera_controller::/torso_cam3d_left_upright/rgb/image_raw/compressed"

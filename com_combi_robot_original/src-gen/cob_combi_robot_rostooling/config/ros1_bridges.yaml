@@ -1,4 +1,8 @@
 bridge_cob_combi_robot_rostooling_topics/topics:
+- topic: tf
+  type: tf2_msgs/msg/TFMessage
+- topic: tf_static
+  type: tf2_msgs/msg/TFMessage
 - topic: /base/twist_controller/command
   type: geometry_msgs/msg/Twist
 - topic: /scan_unified

@@ -1,0 +1,22 @@
+@startuml
+
+/'SUBSYSTEMS'/
+
+  component cartographer_node {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin cartographer_node.scan_cart as "scan_cart" #blue
+    portin cartographer_node.odom_cart as "odom_cart" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component cartographer_occupancy_grid_node {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+
+@enduml
