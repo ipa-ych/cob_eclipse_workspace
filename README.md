@@ -1,5 +1,10 @@
 # cob_eclipse_ws
-This repository contains RosTooling projects for simulation and read-world scenarios using cob4-25
+This repository contains RosTooling projects created with RosTooling approach for simulation and read-world scenarios using cob4-25 robot.<br>
+For more about RosTooling and model-driven development approach:  [RosTooling](https://github.com/ipa320/RosTooling) <br>
+For RosTooling tutorials: 
+[RosTooling Tutorials](https://ipa320.github.io/RosTooling.github.io/) <br>
+For RosTooling Model Catalog: [Model Catalog](https://github.com/ipa-nhg/RosModelsCatalog)
+
 
 
 ## Project overview
@@ -12,4 +17,5 @@ This repository contains RosTooling projects for simulation and read-world scena
 
 
 ## Tips
-- UML praphs are created with <project_name>_uml.rossystem fles
+- UML graphs are created with <project_name>_uml.rossystem fles. The graphs can be found under [/RosTooling_Visualization](https://github.com/ipa-ych/cob_eclipse_workspace/tree/main/RosTooling_Visualization)
+- To launch the auto-generated ROS2 packages (under <project_name>/src-gen), dependencies and external packages are required. Please refer to https://github.com/ipa-ych/YCH_ros2_ws
