@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:system="http://www.ipa.fraunhofer.de/rossystem" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_wrhgkEtDEe-BTPk59cCeQg" selectedViews="_xRD2kEtDEe-BTPk59cCeQg" version="15.2.0.202303281325">
+    <semanticResources>cob_navi_robot_uml.rossystem</semanticResources>
+    <semanticResources>rosnodes/launch_visual.rossystem</semanticResources>
+    <semanticResources>rosnodes/robot_state_publisher.ros2</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/ros_core.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/builtin_interfaces.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/tf2_msgs.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/common_msgs.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/sensor_msgs.ros</semanticResources>
+    <semanticResources>rosnodes/robot_state_publisher.ros1</semanticResources>
+    <semanticResources>rosnodes/rviz.ros2</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/nav_msgs.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/map_msgs.ros</semanticResources>
+    <semanticResources>rosnodes/cob_nav2.rossystem</semanticResources>
+    <semanticResources>rosnodes/navi/amcl.ros2</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/lifecycle_msgs.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/nav2_msgs.ros</semanticResources>
+    <semanticResources>rosnodes/navi/behavior_server.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/bt_navigator.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/controller_server.ros2</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/dwb_msgs.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/nav_2d_msgs.ros</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/visualization_msgs.ros</semanticResources>
+    <semanticResources>rosnodes/navi/global_costmap.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/lifecycle_manager_localization.ros2</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/diagnostic_msgs.ros</semanticResources>
+    <semanticResources>rosnodes/navi/lifecycle_manager_navigation.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/local_costmap.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/map_server.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/planner_server.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/smoother_server.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/velocity_smoother.ros2</semanticResources>
+    <semanticResources>rosnodes/navi/waypoint_follower.ros2</semanticResources>
+    <semanticResources>rosnodes/cob4_bringup.rossystem</semanticResources>
+    <semanticResources>rosnodes/base_driver.ros1</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/basic_msgs/controller_manager_msgs.ros</semanticResources>
+    <semanticResources>ros1_msgs/dynamic_reconfigure.ros</semanticResources>
+    <semanticResources>ros1_msgs/cob_base_controller_utils.ros</semanticResources>
+    <semanticResources>rosnodes/scan_unifier.ros1</semanticResources>
+    <semanticResources>rosnodes/joint_state_publisher.ros1</semanticResources>
+    <semanticResources>rosnodes/joy.ros2</semanticResources>
+    <semanticResources>rosnodes/twist_mux.ros2</semanticResources>
+    <semanticResources>platform:/resource/de.fraunhofer.ipa.ros.communication.objects/nav2_msgs/rosgraph_msgs.ros</semanticResources>
+    <semanticResources>rosnodes/teleop_twist_joy.ros2</semanticResources>
+    <semanticResources>rosnodes/slam_toolbox.ros2</semanticResources>
+    <semanticResources>slam_toolbox_msgs/slam_toolbox_msgs.ros</semanticResources>
+    <semanticResources>cob_slam_robot.rossystem</semanticResources>
+    <semanticResources>cob_navi_robot.rossystem</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_xRD2kEtDEe-BTPk59cCeQg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_0oHR8EtDEe-BTPk59cCeQg" name="cob_navi_robot_uml" repPath="#_0oGD0EtDEe-BTPk59cCeQg" changeId="1721995132656">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']"/>
+        <target xmi:type="system:System" href="cob_navi_robot_uml.rossystem#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_0oGD0EtDEe-BTPk59cCeQg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_0oNYkEtDEe-BTPk59cCeQg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_0oNYkUtDEe-BTPk59cCeQg" type="Sirius" element="_0oGD0EtDEe-BTPk59cCeQg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_0rWMIEtDEe-BTPk59cCeQg" type="2002" element="_0oN_oEtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_0rZPcEtDEe-BTPk59cCeQg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_0rZPcUtDEe-BTPk59cCeQg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0rogAEtDEe-BTPk59cCeQg" type="3007" element="_0oj94EtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0rogA0tDEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0rogBEtDEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0rogAUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rogAktDEe-BTPk59cCeQg" x="35" y="33" width="20" height="20"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0rZPcktDEe-BTPk59cCeQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0rZPc0tDEe-BTPk59cCeQg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KUHrYEtEEe-BTPk59cCeQg" type="3012" element="_KTD7cEtEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KUIScEtEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KUIScUtEEe-BTPk59cCeQg" x="21" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUI5gEtEEe-BTPk59cCeQg" type="3003" element="_KTHl0EtEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUI5gUtEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUI5gktEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KUHrYUtEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUHrYktEEe-BTPk59cCeQg" x="140" y="36" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0rWMIUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rWMIktDEe-BTPk59cCeQg" x="408" y="552"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0rZ2gEtDEe-BTPk59cCeQg" type="2002" element="_0oPNwUtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_0radkEtDEe-BTPk59cCeQg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_0radkUtDEe-BTPk59cCeQg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0rqVMEtDEe-BTPk59cCeQg" type="3007" element="_0owyMEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0rqVM0tDEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0rqVNEtDEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0rqVMUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rqVMktDEe-BTPk59cCeQg" x="35" y="33" width="20" height="20"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUJgkktEEe-BTPk59cCeQg" type="3007" element="_KTNFYEtEEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_KUJglUtEEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_KUJglktEEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUJgk0tEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUJglEtEEe-BTPk59cCeQg" width="20" height="20"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0radkktDEe-BTPk59cCeQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0radk0tDEe-BTPk59cCeQg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_0rpHE0tDEe-BTPk59cCeQg" type="3012" element="_0okk8EtDEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_0rpuIEtDEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_0rpuIUtDEe-BTPk59cCeQg" x="21" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0rqVNUtDEe-BTPk59cCeQg" type="3003" element="_0otu4EtDEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0rqVNktDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rqVN0tDEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_0rpHFEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rpHFUtDEe-BTPk59cCeQg" x="140" y="12" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KUI5g0tEEe-BTPk59cCeQg" type="3012" element="_KTIz8ktEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KUJgkEtEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KUJgkUtEEe-BTPk59cCeQg" x="-83" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUKHoEtEEe-BTPk59cCeQg" type="3003" element="_KTMeUEtEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUKHoUtEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUKHoktEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KUI5hEtEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUI5hUtEEe-BTPk59cCeQg" x="-12" y="36" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0rZ2gUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rZ2gktDEe-BTPk59cCeQg" x="948" y="552"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0radlEtDEe-BTPk59cCeQg" type="2002" element="_0oP00UtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_0radl0tDEe-BTPk59cCeQg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_0rbEoEtDEe-BTPk59cCeQg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0rrjUEtDEe-BTPk59cCeQg" type="3007" element="_0o0ckEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0rrjU0tDEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0rrjVEtDEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0rrjUUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rrjUktDEe-BTPk59cCeQg" x="35" y="33" width="20" height="20"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUKusktEEe-BTPk59cCeQg" type="3007" element="_KTOTgktEEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_KUKutUtEEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_KUKutktEEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUKus0tEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUKutEtEEe-BTPk59cCeQg" width="20" height="20"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0rbEoUtDEe-BTPk59cCeQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0rbEoktDEe-BTPk59cCeQg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KUKHo0tEEe-BTPk59cCeQg" type="3012" element="_KTNscEtEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KUKHpktEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KUKHp0tEEe-BTPk59cCeQg" x="21" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUKut0tEEe-BTPk59cCeQg" type="3003" element="_KTNscUtEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUKuuEtEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUKuuUtEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KUKHpEtEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUKHpUtEEe-BTPk59cCeQg" x="175" y="36" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KUKHqEtEEe-BTPk59cCeQg" type="3012" element="_KTNsc0tEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KUKusEtEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KUKusUtEEe-BTPk59cCeQg" x="-22" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KULVwEtEEe-BTPk59cCeQg" type="3003" element="_KTOTgEtEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KULVwUtEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KULVwktEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KUKHqUtEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUKHqktEEe-BTPk59cCeQg" x="-12" y="36" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0radlUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0radlktDEe-BTPk59cCeQg" x="672" y="552"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0rbEo0tDEe-BTPk59cCeQg" type="2002" element="_0oP01EtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_0rhLQEtDEe-BTPk59cCeQg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_0rhLQUtDEe-BTPk59cCeQg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0rtYgEtDEe-BTPk59cCeQg" type="3007" element="_0o3f4EtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0rtYg0tDEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0rtYhEtDEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0rtYgUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rtYgktDEe-BTPk59cCeQg" x="35" y="33" width="20" height="20"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0rt_kEtDEe-BTPk59cCeQg" type="3007" element="_0o4G8EtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0rt_k0tDEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0rt_lEtDEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0rt_kUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rt_kktDEe-BTPk59cCeQg" x="71" y="33" width="20" height="20"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUNK8EtEEe-BTPk59cCeQg" type="3007" element="_KTQvwEtEEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_KUNK80tEEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_KUNK9EtEEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUNK8UtEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUNK8ktEEe-BTPk59cCeQg" width="20" height="20"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUNK9UtEEe-BTPk59cCeQg" type="3007" element="_KTQvwUtEEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_KUNK-EtEEe-BTPk59cCeQg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_KUNK-UtEEe-BTPk59cCeQg" y="5"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUNK9ktEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUNK90tEEe-BTPk59cCeQg" width="20" height="20"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0rhLQktDEe-BTPk59cCeQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0rhLQ0tDEe-BTPk59cCeQg"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KULVw0tEEe-BTPk59cCeQg" type="3012" element="_KTO6kEtEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KULVxktEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KULVx0tEEe-BTPk59cCeQg" x="21" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUNK-ktEEe-BTPk59cCeQg" type="3003" element="_KTO6kUtEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUNK-0tEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUNK_EtEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KULVxEtEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KULVxUtEEe-BTPk59cCeQg" x="140" y="12" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KUL80EtEEe-BTPk59cCeQg" type="3012" element="_KTO6k0tEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KUL800tEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KUL81EtEEe-BTPk59cCeQg" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUNyAEtEEe-BTPk59cCeQg" type="3003" element="_KTPhoEtEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUNyAUtEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUNyAktEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KUL80UtEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUL80ktEEe-BTPk59cCeQg" x="170" y="48" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KUL81UtEEe-BTPk59cCeQg" type="3012" element="_KTPhoktEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KUL82EtEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KUL82UtEEe-BTPk59cCeQg" x="-107" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUNyA0tEEe-BTPk59cCeQg" type="3003" element="_KTPho0tEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUNyBEtEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUNyBUtEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KUL81ktEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUL810tEEe-BTPk59cCeQg" x="-12" y="12" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KUMj4EtEEe-BTPk59cCeQg" type="3012" element="_KTQIsUtEEe-BTPk59cCeQg">
+            <children xmi:type="notation:Node" xmi:id="_KUMj40tEEe-BTPk59cCeQg" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KUMj5EtEEe-BTPk59cCeQg" x="-60" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KUNyBktEEe-BTPk59cCeQg" type="3003" element="_KTQIsktEEe-BTPk59cCeQg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KUNyB0tEEe-BTPk59cCeQg" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUNyCEtEEe-BTPk59cCeQg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KUMj4UtEEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KUMj4ktEEe-BTPk59cCeQg" x="-12" y="60" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0rbEpEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rbEpUtDEe-BTPk59cCeQg" x="840" y="132"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0rjAdEtDEe-BTPk59cCeQg" type="2002" element="_0pIloEtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_0rjAd0tDEe-BTPk59cCeQg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_0rjAeEtDEe-BTPk59cCeQg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0r5lwEtDEe-BTPk59cCeQg" type="3008" element="_0pmfsEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0r6M0EtDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0r6M0UtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0r6M0ktDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0r6M00tDEe-BTPk59cCeQg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0r6z5EtDEe-BTPk59cCeQg" type="3012" element="_0po78EtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0r6z50tDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0r6z6EtDEe-BTPk59cCeQg" x="21" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0r9QIktDEe-BTPk59cCeQg" type="3003" element="_0po78UtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0r9QI0tDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r9QJEtDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0r6z5UtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r6z5ktDEe-BTPk59cCeQg" x="140" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0r7a8EtDEe-BTPk59cCeQg" type="3012" element="_0ppjAUtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0r7a80tDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0r7a9EtDEe-BTPk59cCeQg" x="21" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0r93MEtDEe-BTPk59cCeQg" type="3003" element="_0pqKEEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0r93MUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r93MktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0r7a8UtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r7a8ktDEe-BTPk59cCeQg" x="140" y="21" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0r8CAEtDEe-BTPk59cCeQg" type="3012" element="_0pqKEktDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0r8pEEtDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0r8pEUtDEe-BTPk59cCeQg" x="21" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0r93M0tDEe-BTPk59cCeQg" type="3003" element="_0pqxIEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0r93NEtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r93NUtDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0r8CAUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r8CAktDEe-BTPk59cCeQg" x="140" y="42" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0r8pEktDEe-BTPk59cCeQg" type="3012" element="_0ptNYEtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0r9QIEtDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0r9QIUtDEe-BTPk59cCeQg" x="-74" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0r93NktDEe-BTPk59cCeQg" type="3003" element="_0ptNYUtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0r93N0tDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r93OEtDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0r8pE0tDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r8pFEtDEe-BTPk59cCeQg" x="-12" y="29" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0r5lwUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r5lwktDEe-BTPk59cCeQg" x="163" y="186"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0r6M1EtDEe-BTPk59cCeQg" type="3008" element="_0pnt0EtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0r6z4EtDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0r6z4UtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0r6z4ktDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0r6z40tDEe-BTPk59cCeQg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0r93OUtDEe-BTPk59cCeQg" type="3012" element="_0pvCkEtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0r-eQEtDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0r-eQUtDEe-BTPk59cCeQg" x="-113" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sATcEtDEe-BTPk59cCeQg" type="3003" element="_0pvpoEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sATcUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sATcktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0r93OktDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r93O0tDEe-BTPk59cCeQg" x="-12" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0r-eQktDEe-BTPk59cCeQg" type="3012" element="_0pwQsUtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0r_FUEtDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0r_FUUtDEe-BTPk59cCeQg" x="-59" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sATc0tDEe-BTPk59cCeQg" type="3003" element="_0pw3wEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sATdEtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sATdUtDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0r-eQ0tDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r-eREtDEe-BTPk59cCeQg" x="-12" y="36" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0r_FUktDEe-BTPk59cCeQg" type="3012" element="_0pxe0UtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0r_sYEtDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0r_sYUtDEe-BTPk59cCeQg" x="-141" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sATdktDEe-BTPk59cCeQg" type="3003" element="_0pyF4EtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sATd0tDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sATeEtDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0r_FU0tDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r_FVEtDEe-BTPk59cCeQg" x="-12" y="72" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0r6M1UtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0r6M1ktDEe-BTPk59cCeQg" x="199" y="30" height="99"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0rjAeUtDEe-BTPk59cCeQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0rjAektDEe-BTPk59cCeQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0rjAdUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rjAdktDEe-BTPk59cCeQg" x="1320" y="288" width="520" height="315"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0rjAe0tDEe-BTPk59cCeQg" type="2002" element="_0pOFMktDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_0rjngEtDEe-BTPk59cCeQg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_0rjngUtDEe-BTPk59cCeQg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0sA6gEtDEe-BTPk59cCeQg" type="3008" element="_0qAvYEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sA6g0tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sA6hEtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sA6hUtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sA6hktDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sA6gUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sA6gktDEe-BTPk59cCeQg" x="487" y="114"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sA6h0tDEe-BTPk59cCeQg" type="3008" element="_0qAvY0tDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sBhkEtDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sBhkUtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sBhkktDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sBhk0tDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sA6iEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sA6iUtDEe-BTPk59cCeQg" x="379" y="102"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sBhlEtDEe-BTPk59cCeQg" type="3008" element="_0qBWcktDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sBhl0tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sBhmEtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sBhmUtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sBhmktDEe-BTPk59cCeQg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0sFL8EtDEe-BTPk59cCeQg" type="3012" element="_0qIrMEtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0sFL80tDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0sFL9EtDEe-BTPk59cCeQg" x="-43" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sGaEEtDEe-BTPk59cCeQg" type="3003" element="_0qJSQEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sGaEUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sGaEktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sFL8UtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sFL8ktDEe-BTPk59cCeQg" x="-12" y="12" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0sFzAEtDEe-BTPk59cCeQg" type="3012" element="_0qJSQktDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0sFzA0tDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0sFzBEtDEe-BTPk59cCeQg" x="-82" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sHBIEtDEe-BTPk59cCeQg" type="3003" element="_0qJ5UEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sHBIUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sHBIktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sFzAUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sFzAktDEe-BTPk59cCeQg" x="-12" y="33" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sBhlUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sBhlktDEe-BTPk59cCeQg" x="103" y="78"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sBhm0tDEe-BTPk59cCeQg" type="3008" element="_0qB9gEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sCIoEtDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sCIoUtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sCIoktDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sCIo0tDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sBhnEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sBhnUtDEe-BTPk59cCeQg" x="391" y="102"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sCIpEtDEe-BTPk59cCeQg" type="3008" element="_0qB9g0tDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sCIp0tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sCIqEtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sCIqUtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sCIqktDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sCIpUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sCIpktDEe-BTPk59cCeQg" x="379" y="90"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sCvsEtDEe-BTPk59cCeQg" type="3008" element="_0qCkkUtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sCvs0tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sCvtEtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sCvtUtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sCvtktDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sCvsUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sCvsktDEe-BTPk59cCeQg" x="547" y="93"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sCvt0tDEe-BTPk59cCeQg" type="3008" element="_0qCklEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sCvuktDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sCvu0tDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sCvvEtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sCvvUtDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sCvuEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sCvuUtDEe-BTPk59cCeQg" x="487" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sDWwEtDEe-BTPk59cCeQg" type="3008" element="_0qDLoktDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sDWw0tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sDWxEtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sDWxUtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sDWxktDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sDWwUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sDWwktDEe-BTPk59cCeQg" x="475" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sDWx0tDEe-BTPk59cCeQg" type="3008" element="_0qDysUtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sDWyktDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sDWy0tDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sDWzEtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sDWzUtDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sDWyEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sDWyUtDEe-BTPk59cCeQg" x="355" y="66"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sD90EtDEe-BTPk59cCeQg" type="3008" element="_0qDytEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sD900tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sD91EtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sD91UtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sD91ktDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sD90UtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sD90ktDEe-BTPk59cCeQg" x="328" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sD910tDEe-BTPk59cCeQg" type="3008" element="_0qEZwktDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sD92ktDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sD920tDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sD93EtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sD93UtDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sD92EtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sD92UtDEe-BTPk59cCeQg" x="512" y="124"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sEk4EtDEe-BTPk59cCeQg" type="3008" element="_0qEZxUtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sEk40tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sEk5EtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sEk5UtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sEk5ktDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sEk4UtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sEk4ktDEe-BTPk59cCeQg" x="667" y="78"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sEk50tDEe-BTPk59cCeQg" type="3008" element="_0qFA0UtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sEk6ktDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sEk60tDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sEk7EtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sEk7UtDEe-BTPk59cCeQg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sEk6EtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sEk6UtDEe-BTPk59cCeQg" x="367" y="114"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0rjngktDEe-BTPk59cCeQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0rjng0tDEe-BTPk59cCeQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0rjAfEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="16"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rjAfUtDEe-BTPk59cCeQg" x="432" y="276" width="854" height="243"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0rjnhEtDEe-BTPk59cCeQg" type="2002" element="_0pOsQktDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_0rjnh0tDEe-BTPk59cCeQg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_0rjniEtDEe-BTPk59cCeQg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0sHBI0tDEe-BTPk59cCeQg" type="3008" element="_0qjh8EtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sHoMEtDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sHoMUtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sHoMktDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sHoM0tDEe-BTPk59cCeQg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0sI2VEtDEe-BTPk59cCeQg" type="3012" element="_0ql-MEtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0sI2V0tDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0sI2WEtDEe-BTPk59cCeQg" x="-122" y="-17"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sJdYEtDEe-BTPk59cCeQg" type="3003" element="_0qmlQEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sJdYUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sJdYktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sI2VUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sI2VktDEe-BTPk59cCeQg" x="-12" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sHBJEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true" fillColor="15855970"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sHBJUtDEe-BTPk59cCeQg" x="691" y="66"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sHoNEtDEe-BTPk59cCeQg" type="3008" element="_0qkJAktDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sHoN0tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sHoOEtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sHoOUtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sHoOktDEe-BTPk59cCeQg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0sKEcEtDEe-BTPk59cCeQg" type="3012" element="_0qnMUEtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0sKEc0tDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0sKEdEtDEe-BTPk59cCeQg" x="21" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sKrgEtDEe-BTPk59cCeQg" type="3003" element="_0qnzYEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sKrgUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sKrgktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sKEcUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sKEcktDEe-BTPk59cCeQg" x="140" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sHoNUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true" fillColor="15855970"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sHoNktDEe-BTPk59cCeQg" x="379" y="66"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sIPQEtDEe-BTPk59cCeQg" type="3008" element="_0qkwEEtDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sIPQ0tDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sIPREtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sIPRUtDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sIPRktDEe-BTPk59cCeQg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0sKrg0tDEe-BTPk59cCeQg" type="3012" element="_0qpBgEtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0sKrhktDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0sKrh0tDEe-BTPk59cCeQg" x="21" y="4"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sLSkEtDEe-BTPk59cCeQg" type="3003" element="_0qpBgUtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sLSkUtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sLSkktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sKrhEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sKrhUtDEe-BTPk59cCeQg" x="165" y="24" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sIPQUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true" fillColor="15855970"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sIPQktDEe-BTPk59cCeQg" x="907" y="66"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0sIPR0tDEe-BTPk59cCeQg" type="3008" element="_0qkwE0tDEe-BTPk59cCeQg">
+              <children xmi:type="notation:Node" xmi:id="_0sI2UEtDEe-BTPk59cCeQg" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_0sI2UUtDEe-BTPk59cCeQg" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_0sI2UktDEe-BTPk59cCeQg"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_0sI2U0tDEe-BTPk59cCeQg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0sL5oEtDEe-BTPk59cCeQg" type="3012" element="_0qq2sEtDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0sL5o0tDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0sL5pEtDEe-BTPk59cCeQg" x="21" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sNHwktDEe-BTPk59cCeQg" type="3003" element="_0qrdwEtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sNHw0tDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sNHxEtDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sL5oUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sL5oktDEe-BTPk59cCeQg" x="170" y="24" width="20" height="20"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0sMgsEtDEe-BTPk59cCeQg" type="3012" element="_0qrdwktDEe-BTPk59cCeQg">
+                <children xmi:type="notation:Node" xmi:id="_0sNHwEtDEe-BTPk59cCeQg" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_0sNHwUtDEe-BTPk59cCeQg" x="21" y="2"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_0sNu0EtDEe-BTPk59cCeQg" type="3003" element="_0qsE0EtDEe-BTPk59cCeQg">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_0sNu0UtDEe-BTPk59cCeQg" fontName="Ubuntu"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sNu0ktDEe-BTPk59cCeQg"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0sMgsUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sMgsktDEe-BTPk59cCeQg" x="170" width="20" height="20"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0sIPSEtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="14" bold="true" fillColor="15855970"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0sIPSUtDEe-BTPk59cCeQg" x="43" y="66"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_0rjniUtDEe-BTPk59cCeQg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_0rjniktDEe-BTPk59cCeQg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_0rjnhUtDEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="16"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0rjnhktDEe-BTPk59cCeQg" x="252" y="720" width="1311" height="183"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_0oNYkktDEe-BTPk59cCeQg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_Xrvh4EtGEe-BTPk59cCeQg" type="4001" element="_Xrr3gEtGEe-BTPk59cCeQg" source="_KUHrYEtEEe-BTPk59cCeQg" target="_KUKHqEtEEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_Xrvh5EtGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Xrvh5UtGEe-BTPk59cCeQg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwI8EtGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwI8UtGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwI8ktGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwI80tGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Xrvh4UtGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Xrvh4ktGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xrvh40tGEe-BTPk59cCeQg" points="[10, 0, -102, 0]$[102, 0, -10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwI9EtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwI9UtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XrwI9ktGEe-BTPk59cCeQg" type="4001" element="_Xrr3hUtGEe-BTPk59cCeQg" source="_KUKHo0tEEe-BTPk59cCeQg" target="_KUI5g0tEEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_XrwI-ktGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwI-0tGEe-BTPk59cCeQg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwI_EtGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwI_UtGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwI_ktGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwI_0tGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrwI90tGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XrwI-EtGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwI-UtGEe-BTPk59cCeQg" points="[10, 0, -79, 0]$[79, 0, -10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwJAEtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwJAUtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XrwJAktGEe-BTPk59cCeQg" type="4001" element="_XrsekEtGEe-BTPk59cCeQg" source="_0rpHE0tDEe-BTPk59cCeQg" target="_0sI2VEtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_XrwJBktGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwJB0tGEe-BTPk59cCeQg" x="-76" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwJCEtGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwJCUtGEe-BTPk59cCeQg" x="-53" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwJCktGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwJC0tGEe-BTPk59cCeQg" x="-25" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrwJA0tGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XrwJBEtGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwJBUtGEe-BTPk59cCeQg" points="[10, 0, 162, -228]$[30, 0, 182, -228]$[30, 194, 182, -34]$[-152, 194, 0, -34]$[-152, 218, 0, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwJDEtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwJDUtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XrwJDktGEe-BTPk59cCeQg" type="4001" element="_XrselUtGEe-BTPk59cCeQg" source="_0sKEcEtDEe-BTPk59cCeQg" target="_KUMj4EtEEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_XrwwAEtGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwAUtGEe-BTPk59cCeQg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwwAktGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwA0tGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwwBEtGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwBUtGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrwJD0tGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XrwJEEtGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwJEUtGEe-BTPk59cCeQg" points="[10, 0, -42, 600]$[24, 0, -28, 600]$[24, -600, -28, 0]$[42, -600, -10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwwBktGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwwB0tGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XrwwCEtGEe-BTPk59cCeQg" type="4001" element="_XrsemktGEe-BTPk59cCeQg" source="_0sKrg0tDEe-BTPk59cCeQg" target="_0r8pEktDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_XrwwDEtGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwDUtGEe-BTPk59cCeQg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwwDktGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwD0tGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwwEEtGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwEUtGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrwwCUtGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XrwwCktGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwwC0tGEe-BTPk59cCeQg" points="[10, 0, -137, 307]$[73, 0, -74, 307]$[73, -307, -74, 0]$[137, -307, -10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwwEktGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwwE0tGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XrwwFEtGEe-BTPk59cCeQg" type="4001" element="_Xrsen0tGEe-BTPk59cCeQg" source="_0sL5oEtDEe-BTPk59cCeQg" target="_0sFL8EtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_XrwwGEtGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwGUtGEe-BTPk59cCeQg" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwwGktGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwG0tGEe-BTPk59cCeQg" x="100" y="59"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrwwHEtGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwHUtGEe-BTPk59cCeQg" x="-89" y="70"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrwwFUtGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XrwwFktGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwwF0tGEe-BTPk59cCeQg" points="[-10, 0, 0, 444]$[-260, 0, -250, 444]$[-260, -444, -250, 0]$[-20, -444, -10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwwHktGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrwwH0tGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XrwwIEtGEe-BTPk59cCeQg" type="4001" element="_XrsepEtGEe-BTPk59cCeQg" source="_0sMgsEtDEe-BTPk59cCeQg" target="_0sFzAEtDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_XrwwJEtGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrwwJUtGEe-BTPk59cCeQg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrxXEEtGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrxXEUtGEe-BTPk59cCeQg" x="74" y="52"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrxXEktGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrxXE0tGEe-BTPk59cCeQg" x="-63" y="63"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrwwIUtGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XrwwIktGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrwwI0tGEe-BTPk59cCeQg" points="[-10, 0, 0, 399]$[-212, 0, -202, 399]$[-212, -399, -202, 0]$[-20, -399, -10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrxXFEtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrxXFUtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XrxXFktGEe-BTPk59cCeQg" type="4001" element="_XrseqUtGEe-BTPk59cCeQg" source="_KULVw0tEEe-BTPk59cCeQg" target="_0r-eQktDEe-BTPk59cCeQg">
+          <children xmi:type="notation:Node" xmi:id="_XrxXGktGEe-BTPk59cCeQg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrxXG0tGEe-BTPk59cCeQg" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrxXHEtGEe-BTPk59cCeQg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrxXHUtGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XrxXHktGEe-BTPk59cCeQg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XrxXH0tGEe-BTPk59cCeQg" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XrxXF0tGEe-BTPk59cCeQg" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XrxXGEtGEe-BTPk59cCeQg" fontName="Ubuntu" fontHeight="10"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XrxXGUtGEe-BTPk59cCeQg" points="[10, 0, -522, -216]$[266, 0, -266, -216]$[266, 216, -266, 0]$[522, 216, -10, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrxXIEtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XrxXIUtGEe-BTPk59cCeQg" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_0rOQUEtDEe-BTPk59cCeQg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_0rOQUUtDEe-BTPk59cCeQg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0oN_oEtDEe-BTPk59cCeQg" name="joy_node">
+      <target xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.3"/>
+      <semanticElements xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.3"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTD7cEtEEe-BTPk59cCeQg" name=" joy_pub" outgoingEdges="_Xrr3gEtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.3/@rosinterfaces.0/@reference"/>
+        <semanticElements xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.3/@rosinterfaces.0/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTHl0EtEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0oOmsEtDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_0oj94EtDEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.3/@rosinterfaces.0"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.3/@rosinterfaces.0"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0oPNwUtDEe-BTPk59cCeQg" name="twist_mux">
+      <target xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.4"/>
+      <semanticElements xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.4"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0okk8EtDEe-BTPk59cCeQg" name=" /base/twist_controller/command" outgoingEdges="_XrsekEtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.0/@reference"/>
+        <semanticElements xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.0/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_0otu4EtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTIz8ktEEe-BTPk59cCeQg" name=" cmd_vel_sub" incomingEdges="_Xrr3hUtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.1/@reference"/>
+        <semanticElements xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.1/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTMeUEtEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0oPNwktDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_0owyMEtDEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.0"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.0"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_KTNFYEtEEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.1"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.4/@rosinterfaces.1"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0oP00UtDEe-BTPk59cCeQg" name="teleop_twist_joy_node">
+      <target xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.5"/>
+      <semanticElements xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.5"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTNscEtEEe-BTPk59cCeQg" name=" cmd_vel" outgoingEdges="_Xrr3hUtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.1/@reference"/>
+        <semanticElements xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.1/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTNscUtEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTNsc0tEEe-BTPk59cCeQg" name=" joy" incomingEdges="_Xrr3gEtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.0/@reference"/>
+        <semanticElements xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.0/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTOTgEtEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0oP00ktDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_0o0ckEtDEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.0"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.0"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_KTOTgktEEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.1"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.5/@rosinterfaces.1"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0oP01EtDEe-BTPk59cCeQg" name="slam_toolbox">
+      <target xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.6"/>
+      <semanticElements xmi:type="system:RosNode" href="cob_navi_robot_uml.rossystem#//@components.6"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTO6kEtEEe-BTPk59cCeQg" name=" map" outgoingEdges="_XrseqUtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.2/@reference"/>
+        <semanticElements xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.2/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTO6kUtEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTO6k0tEEe-BTPk59cCeQg" name=" tf" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.3/@reference"/>
+        <semanticElements xmi:type="system:RosPublisherReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.3/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTPhoEtEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTPhoktEEe-BTPk59cCeQg" name=" map_sub_slamtb" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.0/@reference"/>
+        <semanticElements xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.0/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTPho0tEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_KTQIsUtEEe-BTPk59cCeQg" name=" scan_sub" incomingEdges="_XrselUtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+        <target xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.1/@reference"/>
+        <semanticElements xmi:type="system:RosSubscriberReference" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.1/@reference"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KTQIsktEEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0oQb4EtDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_0o3f4EtDEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.0"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.0"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_0o4G8EtDEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.1"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.1"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_KTQvwEtEEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.2"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.2"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_KTQvwUtEEe-BTPk59cCeQg">
+        <target xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.3"/>
+        <semanticElements xmi:type="system:RosInterface" href="cob_navi_robot_uml.rossystem#//@components.6/@rosinterfaces.3"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@subNodeMappings[name='RosInterface']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0pIloEtDEe-BTPk59cCeQg" name="launch_visual">
+      <target xmi:type="system:SubSystem" href="cob_navi_robot_uml.rossystem#//@components.0"/>
+      <semanticElements xmi:type="system:SubSystem" href="cob_navi_robot_uml.rossystem#//@components.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0pOFMEtDEe-BTPk59cCeQg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0pmfsEtDEe-BTPk59cCeQg" name="robot_state_publisher">
+        <target xmi:type="system:RosNode" href="rosnodes/launch_visual.rossystem#//@components.0"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/launch_visual.rossystem#//@components.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0po78EtDEe-BTPk59cCeQg" name=" tf_pub_ros2" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosPublisherReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.1/@reference"/>
+          <semanticElements xmi:type="system:RosPublisherReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.1/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0po78UtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0ppjAUtDEe-BTPk59cCeQg" name=" tf_static_pub_ros2" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosPublisherReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.2/@reference"/>
+          <semanticElements xmi:type="system:RosPublisherReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.2/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0pqKEEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0pqKEktDEe-BTPk59cCeQg" name=" robot_description" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosPublisherReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.3/@reference"/>
+          <semanticElements xmi:type="system:RosPublisherReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.3/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0pqxIEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0ptNYEtDEe-BTPk59cCeQg" name=" joint_states" incomingEdges="_XrsemktGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.0/@reference"/>
+          <semanticElements xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.0/@rosinterfaces.0/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0ptNYUtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0pnGwEtDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0pnt0EtDEe-BTPk59cCeQg" name="rviz2">
+        <target xmi:type="system:RosNode" href="rosnodes/launch_visual.rossystem#//@components.1"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/launch_visual.rossystem#//@components.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0pvCkEtDEe-BTPk59cCeQg" name=" cloud_in_sub_rviz" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.1/@rosinterfaces.0/@reference"/>
+          <semanticElements xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.1/@rosinterfaces.0/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0pvpoEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0pwQsUtDEe-BTPk59cCeQg" name=" map_sub" incomingEdges="_XrseqUtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.1/@rosinterfaces.1/@reference"/>
+          <semanticElements xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.1/@rosinterfaces.1/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0pw3wEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0pxe0UtDEe-BTPk59cCeQg" name=" robot_description_sub" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.1/@rosinterfaces.2/@reference"/>
+          <semanticElements xmi:type="system:RosSubscriberReference" href="rosnodes/launch_visual.rossystem#//@components.1/@rosinterfaces.2/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0pyF4EtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0pnt0UtDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0pOFMktDEe-BTPk59cCeQg" name="cob_nav2">
+      <target xmi:type="system:SubSystem" href="cob_navi_robot_uml.rossystem#//@components.1"/>
+      <semanticElements xmi:type="system:SubSystem" href="cob_navi_robot_uml.rossystem#//@components.1"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0pOsQEtDEe-BTPk59cCeQg" labelSize="16" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qAvYEtDEe-BTPk59cCeQg" name="amcl">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.0"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qAvYUtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qAvY0tDEe-BTPk59cCeQg" name="behavior_server">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.1"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qBWcEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qBWcktDEe-BTPk59cCeQg" name="bt_navigator">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.2"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.2"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0qIrMEtDEe-BTPk59cCeQg" name=" tf_sub" incomingEdges="_Xrsen0tGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosSubscriberReference" href="rosnodes/cob_nav2.rossystem#//@components.2/@rosinterfaces.0/@reference"/>
+          <semanticElements xmi:type="system:RosSubscriberReference" href="rosnodes/cob_nav2.rossystem#//@components.2/@rosinterfaces.0/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0qJSQEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0qJSQktDEe-BTPk59cCeQg" name=" tf_static_sub" incomingEdges="_XrsepEtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosSubscriberReference" href="rosnodes/cob_nav2.rossystem#//@components.2/@rosinterfaces.1/@reference"/>
+          <semanticElements xmi:type="system:RosSubscriberReference" href="rosnodes/cob_nav2.rossystem#//@components.2/@rosinterfaces.1/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0qJ5UEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qBWc0tDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qB9gEtDEe-BTPk59cCeQg" name="controller_server">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.3"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.3"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qB9gUtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qB9g0tDEe-BTPk59cCeQg" name="global_costmap">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.4"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.4"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qB9hEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qCkkUtDEe-BTPk59cCeQg" name="lifecycle_manager_localization">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.5"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.5"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qCkkktDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qCklEtDEe-BTPk59cCeQg" name="lifecycle_manager_navigation">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.6"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.6"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qDLoEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qDLoktDEe-BTPk59cCeQg" name="local_costmap">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.7"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.7"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qDLo0tDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qDysUtDEe-BTPk59cCeQg" name="map_server">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.8"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.8"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qDysktDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qDytEtDEe-BTPk59cCeQg" name="planner_server">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.9"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.9"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qEZwEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qEZwktDEe-BTPk59cCeQg" name="smoother_server">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.10"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.10"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qEZw0tDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qEZxUtDEe-BTPk59cCeQg" name="velocity_smoother">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.11"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.11"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qEZxktDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qFA0UtDEe-BTPk59cCeQg" name="waypoint_follower">
+        <target xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.12"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob_nav2.rossystem#//@components.12"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qFA0ktDEe-BTPk59cCeQg" labelSize="10" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="217,196,215">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0pOsQktDEe-BTPk59cCeQg" name="cob4_bringup">
+      <target xmi:type="system:SubSystem" href="cob_navi_robot_uml.rossystem#//@components.2"/>
+      <semanticElements xmi:type="system:SubSystem" href="cob_navi_robot_uml.rossystem#//@components.2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0pOsQ0tDEe-BTPk59cCeQg" labelSize="16" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <customFeatures>labelSize</customFeatures>
+        <customFeatures>labelColor</customFeatures>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qjh8EtDEe-BTPk59cCeQg" name="base_driver_ros1">
+        <target xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.0"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0ql-MEtDEe-BTPk59cCeQg" name=" /base/twist_controller/command_sub_ros1" incomingEdges="_XrsekEtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosSubscriberReference" href="rosnodes/cob4_bringup.rossystem#//@components.0/@rosinterfaces.0/@reference"/>
+          <semanticElements xmi:type="system:RosSubscriberReference" href="rosnodes/cob4_bringup.rossystem#//@components.0/@rosinterfaces.0/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0qmlQEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="RIGHT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosSubscriber']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qkJAEtDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="98,241,241" foregroundColor="98,241,241">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>backgroundColor</customFeatures>
+          <customFeatures>foregroundColor</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qkJAktDEe-BTPk59cCeQg" name="scan_unifier_ros1">
+        <target xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.1"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.1"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0qnMUEtDEe-BTPk59cCeQg" name=" scan_unified_ros1" outgoingEdges="_XrselUtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.1/@rosinterfaces.0/@reference"/>
+          <semanticElements xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.1/@rosinterfaces.0/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0qnzYEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qkJA0tDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="98,241,241" foregroundColor="98,241,241">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>backgroundColor</customFeatures>
+          <customFeatures>foregroundColor</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qkwEEtDEe-BTPk59cCeQg" name="joint_state_publisher_ros1">
+        <target xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.2"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.2"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0qpBgEtDEe-BTPk59cCeQg" name=" joint_states_ros1" outgoingEdges="_XrsemktGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.2/@rosinterfaces.0/@reference"/>
+          <semanticElements xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.2/@rosinterfaces.0/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0qpBgUtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qkwEUtDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="98,241,241" foregroundColor="98,241,241">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>backgroundColor</customFeatures>
+          <customFeatures>foregroundColor</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_0qkwE0tDEe-BTPk59cCeQg" name="robot_state_publisher_ros1">
+        <target xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.3"/>
+        <semanticElements xmi:type="system:RosNode" href="rosnodes/cob4_bringup.rossystem#//@components.3"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0qq2sEtDEe-BTPk59cCeQg" name=" /tf_ros1" outgoingEdges="_Xrsen0tGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.3/@rosinterfaces.0/@reference"/>
+          <semanticElements xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.3/@rosinterfaces.0/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0qrdwEtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+        </ownedBorderedNodes>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_0qrdwktDEe-BTPk59cCeQg" name=" /tf_static_ros1" outgoingEdges="_XrsepEtGEe-BTPk59cCeQg" width="2" height="2" resizeKind="NSEW">
+          <target xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.3/@rosinterfaces.1/@reference"/>
+          <semanticElements xmi:type="system:RosPublisherReference" href="rosnodes/cob4_bringup.rossystem#//@components.3/@rosinterfaces.1/@reference"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_0qsE0EtDEe-BTPk59cCeQg" labelSize="10" showIcon="false" labelAlignment="LEFT" color="0,0,0">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='Component']/@borderedNodeMappings[name='RosPublisher']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_0qkwFEtDEe-BTPk59cCeQg" labelSize="14" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="98,241,241" foregroundColor="98,241,241">
+          <customFeatures>labelSize</customFeatures>
+          <customFeatures>backgroundColor</customFeatures>
+          <customFeatures>foregroundColor</customFeatures>
+          <customFeatures>labelColor</customFeatures>
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@containerMappings[name='SubSystem']/@subContainerMappings[name='SubComponent']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Xrr3gEtGEe-BTPk59cCeQg" name="joy_pub" sourceNode="_KTD7cEtEEe-BTPk59cCeQg" targetNode="_KTNsc0tEEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.0"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Xrr3gUtGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Xrr3gktGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Xrr3hUtGEe-BTPk59cCeQg" name="cmd_vel" sourceNode="_KTNscEtEEe-BTPk59cCeQg" targetNode="_KTIz8ktEEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.1"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Xrr3hktGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Xrr3h0tGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrsekEtGEe-BTPk59cCeQg" name="/base/twist_controller/command" sourceNode="_0okk8EtDEe-BTPk59cCeQg" targetNode="_0ql-MEtDEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.2"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrsekUtGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrsekktGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrselUtGEe-BTPk59cCeQg" name="scan_unified_ros1" sourceNode="_0qnMUEtDEe-BTPk59cCeQg" targetNode="_KTQIsUtEEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.3"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrselktGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Xrsel0tGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrsemktGEe-BTPk59cCeQg" name="joint_states_ros1" sourceNode="_0qpBgEtDEe-BTPk59cCeQg" targetNode="_0ptNYEtDEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.4"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Xrsem0tGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrsenEtGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Xrsen0tGEe-BTPk59cCeQg" name="/tf_ros1" sourceNode="_0qq2sEtDEe-BTPk59cCeQg" targetNode="_0qIrMEtDEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.5"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrseoEtGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrseoUtGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrsepEtGEe-BTPk59cCeQg" name="/tf_static_ros1" sourceNode="_0qrdwktDEe-BTPk59cCeQg" targetNode="_0qJSQktDEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.6"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrsepUtGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrsepktGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XrseqUtGEe-BTPk59cCeQg" name="map" sourceNode="_KTO6kEtEEe-BTPk59cCeQg" targetNode="_0pwQsUtDEe-BTPk59cCeQg">
+      <target xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.7"/>
+      <semanticElements xmi:type="system:RosSystemConnection" href="cob_navi_robot_uml.rossystem#//@connections.7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XrtFoEtGEe-BTPk59cCeQg" targetArrow="NoDecoration" size="2" routingStyle="manhattan" centered="Both" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XrtFoUtGEe-BTPk59cCeQg" labelSize="10" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer/@edgeMappings[name='RosTopicConnection']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_0oGD0UtDEe-BTPk59cCeQg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/de.fraunhofer.ipa.ros.sirius/description/ros.odesign#//@ownedViewpoints[name='System']/@ownedRepresentations[name='RosSystem']/@defaultLayer"/>
+    <target xmi:type="system:System" href="cob_navi_robot_uml.rossystem#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

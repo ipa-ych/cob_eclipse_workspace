@@ -1,0 +1,34 @@
+bridge_cob_combi_robot_uml_topics/topics:
+- topic: tf
+  type: tf2_msgs/msg/TFMessage
+- topic: tf_static
+  type: tf2_msgs/msg/TFMessage
+- topic: /base/twist_controller/command
+  type: geometry_msgs/msg/Twist
+- topic: /scan_unified
+  type: sensor_msgs/msg/LaserScan
+- topic: /joint_states
+  type: sensor_msgs/msg/JointState
+- topic: /torso_cam3d_left_upright/rgb/image_raw/compressed
+  type: sensor_msgs/msg/CompressedImage
+- topic: robot_description
+  type: std_msgs/msg/String
+bridge_cob_combi_robot_uml_from_services/services_2_to_1:
+- service: /behavior/setLightCyan
+  type: std_srvs/Trigger
+- service: /behavior/setLightRed
+  type: std_srvs/Trigger
+- service: /behavior/setLightCyan
+  type: std_srvs/Trigger
+- service: /behavior/setLightCyanBreath
+  type: std_srvs/Trigger
+- service: /behavior/setLightCyanSweep
+  type: std_srvs/Trigger
+- service: /behavior/setMimicAsking
+  type: std_srvs/Trigger
+- service: /behavior/setMimicBusy
+  type: std_srvs/Trigger
+- service: /behavior/setMimicBlinking
+  type: std_srvs/Trigger
+- service: sound_play
+  type: cob_srvs/SetString

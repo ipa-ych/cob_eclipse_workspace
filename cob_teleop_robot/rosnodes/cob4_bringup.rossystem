@@ -1,0 +1,6 @@
+cob4_bringup:
+  nodes:
+    base_driver_ros1:
+      from: "base_driver.base_driver"
+      interfaces:
+        - '/base/twist_controller/command_sub_ros1': sub-> "base_driver::/base/twist_controller/command"

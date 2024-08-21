@@ -1,0 +1,229 @@
+@startuml
+
+/'SUBSYSTEMS'/
+component launch_visual {
+  component robot_state_publisher {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin robot_state_publisher.joint_states as "joint_states" #blue
+    portout robot_state_publisher.tf_pub_ros2 as "tf_pub_ros2" #blue
+    portout robot_state_publisher.tf_static_pub_ros2 as "tf_static_pub_ros2" #blue
+    portout robot_state_publisher.robot_description as "robot_description" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component rviz2 {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin rviz2.map_sub as "map_sub" #blue
+    portin rviz2.robot_description_sub as "robot_description_sub" #blue
+    portin rviz2.inference_result_sub as "inference_result_sub" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+ }
+component cob_nav2 {
+  component amcl {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component behavior_server {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component bt_navigator {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin bt_navigator.tf_sub as "tf_sub" #blue
+    portin bt_navigator.tf_static_sub as "tf_static_sub" #blue
+    portin bt_navigator.navigate_to_pose_as as "navigate_to_pose_as" #green
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component controller_server {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout controller_server.cmd_vel_nav as "cmd_vel_nav" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component global_costmap {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component lifecycle_manager_localization {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component lifecycle_manager_navigation {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component local_costmap {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component map_server {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component planner_server {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component smoother_server {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component velocity_smoother {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component waypoint_follower {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+ }
+component cob4_bringup {
+ }
+
+  component joy_node {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout joy_node.joy_pub as "joy_pub" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component twist_mux {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout twist_mux._base_twist_controller_command as "/base/twist_controller/command" #blue
+    portin twist_mux.cmd_vel_sub as "cmd_vel_sub" #blue
+    portin twist_mux.cmd_vel_navi_sub as "cmd_vel_navi_sub" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component teleop_twist_joy_node {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin teleop_twist_joy_node.joy as "joy" #blue
+    portout teleop_twist_joy_node.cmd_vel as "cmd_vel" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component slam_toolbox {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin slam_toolbox.map_sub_slamtb as "map_sub_slamtb" #blue
+    portin slam_toolbox.scan_sub as "scan_sub" #blue
+    portout slam_toolbox.map as "map" #blue
+    portout slam_toolbox.tf as "tf" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component bt_lifecycle_node {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout bt_lifecycle_node.setLightGreen as "setLightGreen" #orange
+    portout bt_lifecycle_node.setLightRed as "setLightRed" #orange
+    portout bt_lifecycle_node.setLightCyan as "setLightCyan" #orange
+    portout bt_lifecycle_node.setLightCyanBreath as "setLightCyanBreath" #orange
+    portout bt_lifecycle_node.setLightCyanSweep as "setLightCyanSweep" #orange
+    portout bt_lifecycle_node.setMimicBusy as "setMimicBusy" #orange
+    portout bt_lifecycle_node.setMimicAsking as "setMimicAsking" #orange
+    portout bt_lifecycle_node.setMimicBlinking as "setMimicBlinking" #orange
+    portout bt_lifecycle_node._sound_play as "/sound/play" #orange
+    portin bt_lifecycle_node.Yolov8_Inference_sub as "Yolov8_Inference_sub" #blue
+    portout bt_lifecycle_node.navigate_to_pose as "navigate_to_pose" #green
+    portin bt_lifecycle_node.change_state as "change_state" #orange
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component image_decompress {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portin image_decompress._torso_cam3d_left_upright_rgb_image_raw_compressed as "/torso_cam3d_left_upright/rgb/image_raw/compressed" #blue
+    portout image_decompress.cam_left_decompressed as "cam_left/decompressed" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  component yolov8_node {
+
+/' PORTS DEFINED AS AVAILABLE IN THE ROSSYSTEM FILE '/
+    portout yolov8_node.Yolov8_Inference as "Yolov8_Inference" #blue
+    portout yolov8_node.inference_result as "inference_result" #blue
+    portin yolov8_node.image_raw_sub as "image_raw_sub" #blue
+
+/' PORTS FROM THE ORIGINAL NODE '/
+  }
+
+  joy_node.joy_pub --> teleop_twist_joy_node.joy
+  teleop_twist_joy_node.cmd_vel --> twist_mux.cmd_vel_sub
+  controller_server.cmd_vel_nav --> twist_mux.cmd_vel_navi_sub
+  robot_state_publisher_ros1._tf_ros1_pub --> bt_navigator.tf_sub
+  robot_state_publisher_ros1._tf_static_ros1_pub --> bt_navigator.tf_static_sub
+  twist_mux._base_twist_controller_command --> base_driver_ros1._base_twist_controller_command_sub
+  scan_unifier_ros1.scan_unified --> slam_toolbox.scan_sub
+  joint_state_publisher_ros1.joint_states_pub --> robot_state_publisher.joint_states
+  slam_toolbox.map --> slam_toolbox.map_sub_slamtb
+  cob_light_ros1.setLightGreen_ss --> bt_lifecycle_node.setLightGreen
+  cob_light_ros1.setLightRed_ss --> bt_lifecycle_node.setLightRed
+  cob_light_ros1.setLightCyan_ss --> bt_lifecycle_node.setLightCyan
+  cob_light_ros1.setLightCyanBreath_ss --> bt_lifecycle_node.setLightCyanBreath
+  cob_light_ros1.setLightCyanSweep_ss --> bt_lifecycle_node.setLightCyanSweep
+  cob_mimic_ros1.setMimicAsking_ss --> bt_lifecycle_node.setMimicAsking
+  cob_mimic_ros1.setMimicBusy_ss --> bt_lifecycle_node.setMimicBusy
+  cob_mimic_ros1.setMimicBlinking_ss --> bt_lifecycle_node.setMimicBlinking
+  cob_sound_ros1._sound_play_ss --> bt_lifecycle_node._sound_play
+  cob_camera_ros1._image_raw_compressed --> image_decompress._torso_cam3d_left_upright_rgb_image_raw_compressed
+  image_decompress.cam_left_decompressed --> yolov8_node.image_raw_sub
+  yolov8_node.Yolov8_Inference --> bt_lifecycle_node.Yolov8_Inference_sub
+  bt_navigator.navigate_to_pose_as --> bt_lifecycle_node.navigate_to_pose
+  robot_state_publisher.robot_description --> rviz2.robot_description_sub
+  yolov8_node.inference_result --> rviz2.inference_result_sub
+  slam_toolbox.map --> rviz2.map_sub
+
+@enduml
